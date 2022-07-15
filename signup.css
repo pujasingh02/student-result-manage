@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #118ab1;
+}
+.signupform{
+    background-color: aliceblue;
+    width: 35%;
+    margin: 20px auto;
+    padding: 34px;
+    border-radius: 4px;
+}
+@media (min-width:360px) and (max-width:768px){
+    .signupform{
+        width: 100%;
+        
+        
+        
+}
+input{
+    width: 100%;
+    padding: 5px 0;
+}
+.div1{
+    margin: 10px;
+}
+label{
+    font-size: 25px;
+}
+input[type=submit]{
+    background-color: green;
+    color: aliceblue;
+    border: none;
+}
